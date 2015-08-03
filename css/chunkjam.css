@@ -2,6 +2,49 @@ header, section, footer, aside, nav, main, article, figure{
     display: block;
 }
 
+.result{
+    //border: solid grey 1px;
+    //background-color: gray;
+}
+
+.result footer a{
+    text-decoration: none;
+}
+
+.rocks{
+    color: red;
+    margin-right: 5px;
+}
+
+.sucks{
+    color:chartreuse;
+}
+
+.post{
+    width: 300px;
+    text-align: center;
+     border: solid black 1px;
+    background-color: #DFE3DC;
+}
+
+.post header p{
+  
+  color: black;
+}
+
+.post p{
+    
+  color: black;
+}
+
+h1, h3{
+    color: white;
+}
+
+body{
+    background-color: #0F0D0F;
+}
+
 .user-view{
     margin-top: 20px;
 }
@@ -12,15 +55,15 @@ header, section, footer, aside, nav, main, article, figure{
 }
 
 .user-view ul li a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .signup{
     margin-left: 400px;
     width: 500px;
-    border: solid black 1px;
-    border-radius: 20px 
+    border: solid black 2px;
+    border-radius: 20px
 }
 
 .signup header{
@@ -30,6 +73,11 @@ header, section, footer, aside, nav, main, article, figure{
 .signup form label{
     margin-left: 100px;
     padding-right: 5px;
+    color: white;
+}
+
+.signup header h2{
+    color: white;
 }
 
 .signup input{
@@ -64,8 +112,19 @@ header, section, footer, aside, nav, main, article, figure{
 
 .slogin label{
     margin-left: 20px;
+    color: white;
 }
 
+.images{
+    width: 200px;
+    height:200px;
+    border-radius: 100px;
+}
+
+figure .images{
+    float: left;
+    padding-right: 5px;
+}
 
 .slogin a{
     color: green;
@@ -82,7 +141,7 @@ header, section, footer, aside, nav, main, article, figure{
 }
 
 
-.ssection{  
+.ssection{
     margin-left: 200px;
 }
 
@@ -102,7 +161,7 @@ header, section, footer, aside, nav, main, article, figure{
     margin-top: 31px;
     height: 35px;
     width: 300px;
-    color: blue;
+    color: black;
 }
 
 .ssection form button{
@@ -122,7 +181,7 @@ nav{
     margin-bottom: 2px;
      margin-left: -8px;
     width: 1400px;
-    background-color: yellowgreen;
+    background-color: #282629;
 }
 
 .nav-header ul li{
@@ -148,7 +207,7 @@ ul li button{
 }
 
 section{
-    border: solid black 1px;
+    //border: solid black 1px;
     clear: both;
 }
 
@@ -157,10 +216,9 @@ footer{
 }
 
 nav{
-    border: solid black 1px;
+    //border: solid black 1px;
 }
 
 form{
-    border: solid black 1px;
+    //border: solid black 1px;
 }
-
